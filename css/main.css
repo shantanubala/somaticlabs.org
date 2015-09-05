@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-container .main .indent {
-    margin-left: 2em;
+    margin: 0em 2em;
 }
 
 .header-container {
@@ -103,9 +103,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-container h1 {
     display: block;
+    margin-left: 1em;
 }
 .header-container h1 img {
-    height: 3em;
+    height: 2em;
 }
 
 .footer-container,
@@ -254,7 +255,9 @@ div.contact-aside {
 }
 
 
-
+footer.wrapper {
+    padding-left: 2em;
+}
 
 
 
