@@ -1,7 +1,7 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #05002B;
+    color: white;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -58,7 +58,8 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    background: #05002B;
+    background: #05002B url('/img/newbg.png');
+    padding-top: 4em;
 }
 
 a {
@@ -86,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
    =================== */
 
 .main-container {
-    background: #fefefe url('../img/bg-faded.png') repeat;
+    background: transparent;
 }
 
 .main-container .main {
@@ -98,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-container {
-    border-bottom: 20px solid #FF9933;
+    /*border-bottom: 20px solid #FF9933;*/
 }
 
 .header-container h1 {
@@ -109,19 +110,19 @@ h1, h2, h3, h4, h5, h6 {
     height: 2em;
 }
 
-.footer-container,
-.main aside {
-    border-top: 20px solid #FF9933;
-}
-
 .header-container,
 .footer-container,
 .main aside {
-    background: #05002B;
+    background: transparent;
 }
 
 .title {
     color: white;
+}
+
+.main-container img {
+    max-width: 100%;
+    width: 100%;
 }
 
 /* ==============
@@ -160,11 +161,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
-h1.attention-grabber {
+.main article h1.attention-grabber {
     font-size: 4em;
     line-height: 1.5;
     text-align: left;
     font-weight: 600;
+    margin: 0em;
 }
 
 article header p {
@@ -248,10 +250,7 @@ article img {
 }
 
 div.contact-aside {
-    margin-top: 2em;
     padding: 5%;
-    border-top: #FF9933 1px dotted;
-    border-bottom: #FF9933 1px dotted;
 }
 
 
@@ -306,13 +305,6 @@ footer.wrapper {
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
-
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
 
 /* ============
     WIDE: Menu
