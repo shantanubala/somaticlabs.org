@@ -58,8 +58,9 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    background: #05002B url('/img/newbg.png');
+    background: #000;
     padding-top: 4em;
+    text-align: center;
 }
 
 a {
@@ -111,8 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-container,
-.footer-container,
-.main aside {
+.footer-container {
     background: transparent;
 }
 
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-.main-container img {
+.main-container img, .footer-container img {
     max-width: 100%;
     width: 100%;
 }
@@ -164,7 +164,6 @@ nav a:hover {
 .main article h1.attention-grabber {
     font-size: 4em;
     line-height: 1.5;
-    text-align: left;
     font-weight: 600;
     margin: 0em;
 }
@@ -195,6 +194,10 @@ article header p {
 .main aside {
     color: white;
     padding: 0px 5% 10px;
+    margin: 2em auto;
+    padding: 2em;
+    border-top: #FF9933 2px solid;
+    background: #05002B;
 }
 
 .footer-container footer {
@@ -310,34 +313,38 @@ footer.wrapper {
     WIDE: Menu
    ============ */
 
-    .title {
+    /*.title {
         float: left;
     }
 
     nav {
         float: right;
         width: 38%;
-    }
+    }*/
 
 /* ============
     WIDE: Main
    ============ */
-
+/*
     .main article {
         float: left;
         width: 60%;
     }
 
-    /*.main aside {
+    .main aside {
         float: right;
         width: 28%;
-    }*/
+    }
 
     .main div.sidebar {
         float: right;
         width: 40%;
         box-sizing: border-box;
         padding: 0 2em;
+    }*/
+
+    .main aside {
+        max-width: 30em;
     }
 }
 
